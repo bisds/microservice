@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "TELMA ");
-        model.addAttribute("msg","APPLICATION EN DEVELOPPEMENT");
+        model.addAttribute("msg","APPLICATION EN MODE DEVELOPPEMENT");
         return "index";
     }
 
