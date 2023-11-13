@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "TELMA ");
-        model.addAttribute("msg","MERCI DADA SY MAMA");
+        model.addAttribute("title", "TELMA MADAGASCAR");
+        model.addAttribute("msg","FIXE-MOBILE-INTERNET");
         return "index";
     }
 
