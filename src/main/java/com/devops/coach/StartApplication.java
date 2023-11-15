@@ -13,8 +13,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "TELMA");
-        model.addAttribute("msg","FMB");
+        model.addAttribute("title", "TELMA Madagascar");
+        model.addAttribute("msg","FIXE-MOBILE-INTERNET");
         return "index";
     }
 
