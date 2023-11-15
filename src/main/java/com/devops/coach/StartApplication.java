@@ -14,7 +14,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "TELMA");
-        model.addAttribute("msg","FIXE-MOBILE-INTERNET");
+        model.addAttribute("msg","FMB");
         return "index";
     }
 
